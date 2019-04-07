@@ -1,0 +1,34 @@
+html {
+    background-color: dodgerblue;
+}
+
+div {
+    width: 50%;
+    background-color: green;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 20px groove yellow;
+}
+
+div p  {
+    width: 90%;
+    margin: 10px auto;
+}
+div h1  {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.header001 {
+    color: blue;
+}
+
+.header002 {
+    color: red;
+}
