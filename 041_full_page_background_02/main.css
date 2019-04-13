@@ -1,0 +1,107 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*formatting*/
+    background-color: rgba(0,0,0,.6);
+}
+
+header div, header nav {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
+
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    /*border: 1px solid  hotpink;*/
+
+    /*font*/
+    font-family: 'Cantarell', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    /*background*/
+    background-color: darkgray;
+    background-image: url("img/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-origin: border-box;
+    background-attachment: fixed;
+
+    /*formatting*/
+    height: 100vh;
+    /*border: 1px solid  blue;*/
+}
+
+#idx-atf > div {
+    height: 14vh;
+}
+
+#idx-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    /*formatting*/
+    /*border: 1px solid green;*/
+}
+
+#idx-center-center{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    /*font-weight: bold;*/
+    color: white;
+}
+h2 {
+    font-size: 1.4rem;
+    /*font-weight: bold;*/
+    color: white;
+    box-sizing: border-box;
+}
+h3 {
+    font-size: 1.43rem;
+    /*font-weight: bold;*/
+    color: white;
+}
+
+button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
