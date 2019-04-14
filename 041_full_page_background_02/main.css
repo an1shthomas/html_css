@@ -15,7 +15,22 @@ header{
 header div, header nav {
     width: 200px;
     height: 40px;
-    background-color: red;
+    /*background-color: red;*/
+    display: flex;
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+.idx-hdr-svg{
+    fill: white;
+    width: 30px;
+    /*for debugging*/
+    /*border: 3px solid hotpink;*/
+}
+.idx-hdr-svg:hover{
+    fill: #85ffb7;
 }
 
 body{
@@ -105,3 +120,4 @@ button{
     color: white;
     border-radius: 5%;
 }
+
